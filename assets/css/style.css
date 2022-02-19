@@ -51,6 +51,7 @@ html {
     cursor: pointer;
     margin-top: 20px;
     text-align: center;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -211,7 +212,7 @@ html {
     /* 50% chiều ngang của chính nó */
     padding-top: 50%; 
     margin-top: 46px;
-    background: url('/assets/img/slider/chicago.jpg');
+    background: url('../img/slider/chicago.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -227,6 +228,7 @@ html {
     left: 0;
     text-align: center;
     color: #fff;
+    text-shadow: 0 0 1px #000;
 }
 
 #slider .text-heading {

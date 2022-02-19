@@ -19,6 +19,7 @@
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
     }
 
     .socials-list i {
@@ -39,6 +40,10 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+    .s-btn {
+        font-size: 17px;
+    }
+    
     .s-full-width,
     .s-col-full {
         width: 100% !important;
